@@ -102,7 +102,7 @@ exports.default = (() => {
     const forgeConfig = yield (0, _forgeConfig2.default)(dir);
     const electronVersion = yield (0, _getElectronVersion2.default)(dir);
 
-    yield (0, _rebuild2.default)(dir, electronVersion, process.platform, process.arch, forgeConfig.electronRebuildConfig);
+//    yield (0, _rebuild2.default)(dir, electronVersion, process.platform, process.arch, forgeConfig.electronRebuildConfig);
 
     const spawnOpts = {
       cwd: dir,

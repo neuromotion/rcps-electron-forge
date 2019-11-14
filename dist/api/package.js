@@ -195,7 +195,7 @@ exports.default = (() => {
 
     const rebuildHookFn = (() => {
       var _ref3 = (0, _bluebird.coroutine)(function* (buildPath, electronVersion, pPlatform, pArch, done) {
-        yield (0, _rebuild2.default)(buildPath, electronVersion, pPlatform, pArch, forgeConfig.electronRebuildConfig);
+//        yield (0, _rebuild2.default)(buildPath, electronVersion, pPlatform, pArch, forgeConfig.electronRebuildConfig);
         packagerSpinner = ora('Packaging Application').start();
         done();
       });
